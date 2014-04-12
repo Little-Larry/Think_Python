@@ -23,8 +23,8 @@ def polygon(t, length, n):
         fd(bob, length)
         lt(bob, degree)
 
-arc(Turtle, 10)
-arc(Turtle, 20)
-arc(Turtle, 40)
-arc(Turtle, 80)
+arc(Turtle, 10, 360)
+arc(Turtle, 20, 360)
+arc(Turtle, 40, 360)
+arc(Turtle, 80, 360)
 wait_for_user()
